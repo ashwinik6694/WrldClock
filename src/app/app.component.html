@@ -1,0 +1,17 @@
+
+<form (submit)="LoginUser()">
+  <br><br>
+  <input type="text" name="username" placeholder = "Username"[(ngModel)]="username"><br>
+  <br>
+  <input type="password" name="password" placeholder = "Password" [(ngModel)]="password">
+  <br>
+  <br>
+  <input type="submit" value="Login" (click)="LoginUser()">
+</form>
+
+
+<br>
+<br>
+<label>India Time<input type="text" value="{{ displayTime }}">
+  <br>
+ 
